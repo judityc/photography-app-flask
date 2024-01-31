@@ -2,6 +2,12 @@
 _Judita Cicėnaitė, Vilnius, Lithuania_
 
 #### Video Demo:  https://youtu.be/oPBBXwUEGvY
+#### Demo: https://photography-app-flask.vercel.app/
+
+> [!WARNING]  
+> This app is deployed on Vercel. Currently login functionality does not work because vercel does not support SQLite.
+> TODO: use Vercel supported database.
+
 ## Description:
 Film Pgotography Portfolio Website is a website created for photographer. Aim of the project is:
 - Show gallery of photos taken by photographer
