@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+   <link rel="stylesheet" href="../static/admin.css">
+{% endblock %}
+
+{% block title %}
+   Admin page
+{% endblock %}
+
+{% block body %}
+   <div class="admin">
+      <table>
+         <tbody>
+             {% for row in messages %}
+             <tr>
+                 <td class="text-start">{{ row["name"] }}</td>
+                 <td class="text-end">{{ row["number"] }}</td>
+                 <td class="text-end">{{ row["email"] }}</td>
+                 <td class="text-end">{{ row["message"] }}</td>
+             </tr>
+             {% endfor %}
+         </tbody>
+      </table>
+
+      <div class="upload">
+         <h1>Click "Choose File" button to upload photo:</h1>
+         <form action="/admin" method="post" enctype="multipart/form-data">
+           <input type="file" name="file" multiple/>
+           <button type="submit">Upload</button>
+         </form>
+      </div>
+   </div>
+
+{% endblock %}

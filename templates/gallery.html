@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="../static/gallery.css">
+{% endblock %}
+
+{% block title %}
+    Snake Shot - Gallery
+{% endblock %}
+
+{% block body %}
+
+    <div class="gallery-grid">
+    {% for image in images %}
+        <div class="gallery-item">
+            <img src="static/photos/gallery/{{ image }}"/>
+        </div>
+    {% endfor %}
+    </div>
+
+    <div class="full-size-photo">
+        <span>&times;</span>
+        <img src="static/photos/gallery/20220429_0005.jpg"/>
+    </div>
+
+{% endblock %}
+

@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="../static/form.css">
+{% endblock %}
+
+{% block title %}
+    Snake Shot - Contacts
+{% endblock %}
+
+{% block body %}
+            
+            <form action="/contacts" method="post">
+                <div class="contact-form">
+                    <input autocomplete="off" name="name" type="text" required>
+                    <label for="name">Name Surname</label>
+                </div>
+                <div class="contact-form">
+                    <input autocomplete="off" name="phone" type="text" required>
+                    <label for="phone">Phone Number</label>
+                </div>
+                <div class="contact-form">
+                    <input autocomplete="off" name="email" type="text" required>
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="contact-form">
+                    <textarea name="message" rows="10" required></textarea>
+                    <label for="message">Enter Your Message</label>
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+{% endblock %}

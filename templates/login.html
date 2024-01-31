@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="../static/form.css">
+{% endblock %}
+
+{% block title %}
+    Admin LogIn
+{% endblock %}
+
+{% block body %}
+    <form action="/login" method="post">
+        <div class="login-form">
+            <input autocomplete="off" name="username" type="text" required>
+            <label for="username">User Name</label>
+        </div>
+        <div class="login-form">
+            <input autocomplete="off" name="password" type="password" required>
+            <label for="password">Enter Password</label>
+        </div>
+        <button class="submit-button" type="submit">Login</button>
+    </form>
+{% endblock %}
