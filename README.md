@@ -11,12 +11,22 @@ _Judita Cicėnaitė, Vilnius, Lithuania_
 ## Description:
 Film Pgotography Portfolio Website is a website created for photographer. Aim of the project is:
 - Show gallery of photos taken by photographer
+
+![Alt text](Readme-img/gallery.png) 
 - Intoduce user about photographer, his worldview and aim of photography
+
+![Alt text](Readme-img/about.png)
 - Write a message to photographer to book a photoshoot by leaving contacts and general message about wanted photoshoot to photograpgher
 
+![Alt text](Readme-img/contacts.png)
+
 For photographer (website owner):
+
+![Alt text](Readme-img/login.png)
 - Read messages from users in admin page
 - Upload new images to portfolio gallery page
+
+![Alt text](Readme-img/adimin_page.png)
 
 ## Technologies used:
 These programming languages were chosen for this project: JavaScript, CSS, HTML and Python with Flask.
