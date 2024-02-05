@@ -12,21 +12,22 @@ _Judita Cicėnaitė, Vilnius, Lithuania_
 Film Pgotography Portfolio Website is a website created for photographer. Aim of the project is:
 - Show gallery of photos taken by photographer
 
-![Alt text](Readme-img/gallery.png) 
+!([Readme-img/gallery.png](https://github.com/judityc/photography-app-flask/assets/123310773/efc38e48-2f9a-47c5-bbef-067be93798e0)) 
 - Intoduce user about photographer, his worldview and aim of photography
 
-![Alt text](Readme-img/about.png)
+!([Readme-img/about.png](https://github.com/judityc/photography-app-flask/assets/123310773/27d9813e-670e-4d85-a24d-345ea9c190c9))
 - Write a message to photographer to book a photoshoot by leaving contacts and general message about wanted photoshoot to photograpgher
 
-![Alt text](Readme-img/contacts.png)
+!([Readme-img/contacts.png](https://github.com/judityc/photography-app-flask/assets/123310773/73bce204-f813-48ae-80f7-4badba6062fe))
 
 For photographer (website owner):
 
-![Alt text](Readme-img/login.png)
+!([Readme-img/login.png](https://github.com/judityc/photography-app-flask/assets/123310773/c4fe310c-fdd4-447f-bc8e-2c18806cdad3))
+
 - Read messages from users in admin page
 - Upload new images to portfolio gallery page
 
-![Alt text](Readme-img/adimin_page.png)
+!([Readme-img/adimin_page.png](https://github.com/judityc/photography-app-flask/assets/123310773/63d1a4b0-f7bc-4817-b675-8e02d1f6b109))
 
 ## Technologies used:
 These programming languages were chosen for this project: JavaScript, CSS, HTML and Python with Flask.
